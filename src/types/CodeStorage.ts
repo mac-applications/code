@@ -8,6 +8,9 @@ export interface CodeStorage {
                         items: {
                             id: 'openRecentFolder' | 'openRecentFile';
                             label: string;
+                            uri: {
+                                path: string;
+                            }
                         }[]
                     }
                 }[]
